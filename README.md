@@ -15,7 +15,7 @@ Simple todo application with minimal functions, with a simple design in specifie
   - wireframe: 2 hours
   - functional specification: 2 hours
   - coding: 10 hours
-  - testing, linting, debugging: 6 hours (thursday)
+  - testing, linting, debugging: 6 hours
 
 Time of deployment: Thursday September 25, midnight
 
