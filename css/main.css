@@ -1,0 +1,44 @@
+body {
+	background-color: #3E735A;
+}
+p {
+	color: #73291E;
+}
+
+.container {
+  margin: 1%;
+  background-color: #EDF2DD;
+}
+
+.header {
+  margin: 0 0 30px 0;
+  padding: 1%;
+  background-color: #EDF2DD;
+  border-bottom: solid 10px #3E735A;
+  font-family: serif;
+  font-size: 2em;
+
+}
+
+.logo {
+  padding: 0;
+  max-width: 40px;
+ }
+
+.form {
+	padding: 2%;
+}
+
+.list_items{
+	line-height: 1.75em;
+	padding: 1%;
+	border: 1px solid #73291E;
+	background-color: #FFEBCD;
+	margin: 5px 0;
+	}
+
+.list_items p{
+	display: inline;
+}
+
+
