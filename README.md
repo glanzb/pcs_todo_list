@@ -29,7 +29,7 @@ Time of deployment: Thursday September 25, midnight
 - responsive (mobile first?) design that works on both mobile and desktop 
 - complementary color palette in either Spring or Fall tones
 - logotype in header in matching colors
-- input area on top of the screen and and button for entering tasks (optionally no button)
+- input area on top of the screen and button for entering tasks (optionally no button)
 - vertical arrangement of tasks with checkboxes (optionally with delete button)
 - when checked, task should be grayed-out and struck-through
 
@@ -52,7 +52,7 @@ Time of deployment: Thursday September 25, midnight
 - task entry without button using the ENTER key.
 - delete button for each task that removes the item permanently (no undo required)
 - order of list items from newest to oldest and vice versa
-- on mobile, form on the bottom on the screen, while on desktop it stays on top. 
+- on mobile, form on the bottom of the screen, while on desktop it stays on top. 
 
 
 
