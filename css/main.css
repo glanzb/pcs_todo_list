@@ -1,44 +1,100 @@
 body {
-	background-color: #3E735A;
+  background-color: #3E735A;
+  color: #73291E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
 }
-p {
-	color: #73291E;
+
+
+.header {
+  margin: 1%;
+  
+  padding: 10px 10% 10px 10%;
+  background-color: #EDF2DD;
+  position: relative;  
+  font-family: serif;
+  font-size: 2.5em;
+
 }
 
 .container {
   margin: 1%;
   background-color: #EDF2DD;
+  padding-bottom: 5%;
+  }
+
+.container h1 {
+  text-align: center;
+  font-size: 1.5em;
 }
-
-.header {
-  margin: 0 0 30px 0;
-  padding: 1%;
-  background-color: #EDF2DD;
-  border-bottom: solid 10px #3E735A;
-  font-family: serif;
-  font-size: 2em;
-
-}
-
-.logo {
-  padding: 0;
-  max-width: 40px;
- }
 
 .form {
-	padding: 2%;
+  padding: 10px;
 }
 
-.list_items{
-	line-height: 1.75em;
-	padding: 1%;
-	border: 1px solid #73291E;
-	background-color: #FFEBCD;
-	margin: 5px 0;
-	}
+#things {
+  width: 80%;
+  height: 50px;
+  border: 1px solid #73291E;
+  padding: 5px;
+  border-radius : 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
-.list_items p{
-	display: inline;
+#submitButton {
+  width: 20%;
+  height: 30px;
+  border : solid 1px #73291E;
+  border-radius : 5px;
+  background-color : #fff;
+  font-size: 1em;
+  color: #73291E;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 1%;
+}
+
+#taskList{
+  border: 1px solid #73291E;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+}
+
+ul {
+  list-style: none;  
+}
+
+li {
+  border: 1px solid #73291E;
+  background-color: #EDF2DD;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1%;
+}
+
+li input {
+  position: relative;
+  top: -3px;
+  margin: 0 10px 0 10px;
+}
+
+.deleteListItem {
+  max-height: 20px;
+  margin: 0 0 0 10px;
+  position: relative;  /* move it down slightly from where it would */
+  top: 3px;            /* naturally appear */
+  border-radius: 3px;
+  border: 1px solid #73291E;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
 }
 
 

@@ -1,49 +1,40 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Litst_it app</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-<body>
-<div class="container">
+  <head>
+    <title>Litst_it app</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
     
+  </head>
+  <body>
+
     <div class="header">
-        <img class="logo" src="img/listit-logo.gif">
-        List_it
+      <!--<img class="logo" src="img/listit-logo.gif"> -->
+      List_it
     </div>
 
-
-    <div class="form">
-        <form action="#">
-            <div>
-            <label for="item"><p>Things to do</p></label>
-            <input type="text" name="item" id="item" placeholder="+ Add next item"/>
-          </div>
-            <div>
-                <input type="submit" value="Submit" />
+  <div class="container">
+    <div class="form grey_box">
+      <form id="the_form" action="#">
+        <div>
+          <label for="things"><h1>Put more things on your list!</h1></label>
+          <div>
+          <input type="textarea" name="things" id="things" placeholder="+ The next thing on your list to do"/>
             </div>
-         
-            <label for="checkbox"><p>generated list</p></label>
-     
-        <div class="list_items">
-            <input type="checkbox" name="checkbox" id="checkbox"/> <p>First item</p>
+          <button id="submitButton" type="button">Add to list!</button>
         </div>
-        <div class="list_items">
-            <input type="checkbox" name="checkbox" id="checkbox"/> <p> Second item</p>
-        </div>
-        <div class="list_items">
-                <input type="checkbox" name="checkbox" id="checkbox"/> <p> third item</p>
-            </div>
-        </form>
-        
-      </div>
+      </form>
+    </div>
       
-</div>
+    <div class="list grey_box">
+      <ul id="taskList"></ul>  
+    </div>
+  </div>
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
-        
-</body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
 </html>
+
